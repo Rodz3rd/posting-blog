@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font: bold 20px tahoma;
+}
+
+header, nav, section, article, hgroup, aside, footer {
+	display: block;
+}
+
+body {
+	text-align: center;
+}
+
+#blog-content {
+	width: 60%;
+	margin: 20px auto;
+	padding: .5%; /* 59% left */
+	text-align: left;
+	border: .3em solid black;
+	background-image: url(../img/2.jpg);
+}
+
+#blog-header {
+	border: 1px solid black;
+	padding: 2%;
+	background: linear-gradient(45deg, rgb(235, 189, 111), rgb(238, 199, 120));
+}
+
+#blog-section {
+	width: 62.5%;
+	margin: .5%;
+	padding: .5%;
+	float: left;
+}
+
+#blog-section article {
+	margin: 1.5%;
+	padding: 1.5%;
+	background-color: rgb(227, 173, 87);
+	box-shadow: 5px 5px 20px black;
+	border-radius: 10px;
+}
+
+#blog-section article p {
+	text-indent: 35px;
+	word-wrap: break-word;
+}
+
+#blog-section article footer {
+	text-align: right;
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+#blog-aside {
+	width: 33%;
+	margin: .5%;
+	padding: .5%;
+	float: left;
+}
+
+#blog-aside form {
+	margin-top: 8px;
+	background-color: rgb(240, 200, 130);
+	box-shadow: 3px 4px 7px black;
+	border-radius: 10px;
+	padding: 5%;
+}
+
+.q-mark {
+	max-width: 2%;
+  	position: absolute;
+  	margin-top: .3em;
+}
+
+#blog-footer {
+	clear: both;
+	text-align: center;
+	border-top: .1em solid black;
+	padding: 1.5%;
+}
+
+/*  In Form */
+span[^error] {
+	color: red;
+}
+
+#title, #author {
+	width: 80%;
+	height: 2em;
+	margin: .5em;
+}
+
+#content {
+	resize: none;
+	width: 80%;
+	height: 8em;
+	margin: .5em;
+}
+
+#error-title, #error-author, #error-content {
+	font-size: .8em;
+	color: #D80008;
+}
+
+input[type=submit] {
+	width: 40%;
+	margin: .5em;
+}

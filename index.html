@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Posting Blog Activity</title>
+	<link rel="stylesheet" type="text/css" href="css/blog.css">
+</head>
+<body>
+	<div id="blog-content">
+		<header id="blog-header">
+			<h1>Posting Blog Activity</h1>
+		</header>
+
+		<section id="blog-section">
+			<article>
+				<header>
+					<hgroup>
+						<h1>Lorem Ipsum</h1>
+					</hgroup>
+				</header>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<footer>- Lorem</footer>
+			</article>
+		</section>
+
+		<aside id="blog-aside">
+			<h1>Post Blog</h1>
+			<form>
+				<span id="error-title"></span>
+				<input type="text" placeholder="Title" maxlength="40" id="title" /> <br />
+				<span id="error-author"></span>
+				<input type="text" placeholder="Author" maxlength="50" id="author" /> <img src="img/Blue_question_mark.png" alt="Fullname" title="Fullname" class="q-mark" /> <br />
+				<span id="error-content"></span>
+				<textarea placeholder="Content(1000)" maxlength="1000" id="content"></textarea> <br />
+				<input type="submit" value="POST" onclick="return postblog();" />
+			</form>
+		</aside>
+
+		<footer id="blog-footer">&copy; Copyright The Posting Blog - 2015</footer>
+	</div>
+
+	<script type="text/javascript" src="js/blog.js"></script>
+</body>
+</html>
